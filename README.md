@@ -21,8 +21,8 @@
 # 3.Запустить скрипт и проверить вывод
   <ul>
     Перез запуском скрипта были выданы права на запуск командой
-    chmod ug+x /scripts/script_ps.sh
-    Запускал скрипт командой
-    ./script_ps.sh
-    Вывод терминала представлен в файле https://github.com/sergeyorb/proc/blob/main/terminal.txt
+    <p>chmod ug+x /scripts/script_ps.sh
+    <p>Запускал скрипт командой
+    <p>./script_ps.sh
+    <p>Вывод терминала представлен в файле https://github.com/sergeyorb/proc/blob/main/terminal.txt
   </ul>

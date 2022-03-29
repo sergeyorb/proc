@@ -1,0 +1,99 @@
+[root@PS /]# cd scripts
+[root@PS scripts]# ls -l
+total 8
+-rwxr-xr--. 1 root root 240 Mar 23 11:18 script.sh
+-rwxr-xr--. 1 root root 302 Mar 27 09:23 script_ps.sh
+[root@PS scripts]# ./script_ps.sh
+PID: 1  State:      S (sleeping) Name:  systemd
+PID: 2  State:      S (sleeping) Name:  kthreadd
+PID: 4  State:      S (sleeping) Name:  kworker/0:0H
+PID: 6  State:      S (sleeping) Name:  ksoftirqd/0
+PID: 7  State:      S (sleeping) Name:  migration/0
+PID: 8  State:      S (sleeping) Name:  rcu_bh
+PID: 9  State:      R (running) Name:   rcu_sched
+PID: 10  State:     S (sleeping) Name:  lru-add-drain
+PID: 11  State:     S (sleeping) Name:  watchdog/0
+PID: 13  State:     S (sleeping) Name:  kdevtmpfs
+PID: 14  State:     S (sleeping) Name:  netns
+PID: 15  State:     S (sleeping) Name:  khungtaskd
+PID: 16  State:     S (sleeping) Name:  writeback
+PID: 17  State:     S (sleeping) Name:  kintegrityd
+PID: 18  State:     S (sleeping) Name:  bioset
+PID: 19  State:     S (sleeping) Name:  bioset
+PID: 20  State:     S (sleeping) Name:  bioset
+PID: 21  State:     S (sleeping) Name:  kblockd
+PID: 22  State:     S (sleeping) Name:  md
+PID: 23  State:     S (sleeping) Name:  edac-poller
+PID: 24  State:     S (sleeping) Name:  watchdogd
+PID: 25  State:     S (sleeping) Name:  kworker/0:1
+PID: 26  State:     S (sleeping) Name:  kworker/u2:1
+PID: 30  State:     S (sleeping) Name:  kswapd0
+PID: 31  State:     S (sleeping) Name:  ksmd
+PID: 32  State:     S (sleeping) Name:  crypto
+PID: 40  State:     S (sleeping) Name:  kthrotld
+PID: 41  State:     S (sleeping) Name:  kmpath_rdacd
+PID: 42  State:     S (sleeping) Name:  kaluad
+PID: 43  State:     S (sleeping) Name:  kpsmoused
+PID: 44  State:     S (sleeping) Name:  ipv6_addrconf
+PID: 58  State:     S (sleeping) Name:  deferwq
+PID: 93  State:     S (sleeping) Name:  kauditd
+PID: 123  State:    S (sleeping) Name:  ata_sff
+PID: 125  State:    S (sleeping) Name:  scsi_eh_0
+PID: 127  State:    S (sleeping) Name:  scsi_tmf_0
+PID: 128  State:    S (sleeping) Name:  scsi_eh_1
+PID: 130  State:    S (sleeping) Name:  scsi_tmf_1
+PID: 133  State:    S (sleeping) Name:  kworker/u2:3
+PID: 151  State:    S (sleeping) Name:  bioset
+PID: 152  State:    S (sleeping) Name:  xfsalloc
+PID: 153  State:    S (sleeping) Name:  xfs_mru_cache
+PID: 154  State:    S (sleeping) Name:  xfs-buf/sda1
+PID: 155  State:    S (sleeping) Name:  xfs-data/sda1
+PID: 156  State:    S (sleeping) Name:  xfs-conv/sda1
+PID: 157  State:    S (sleeping) Name:  xfs-cil/sda1
+PID: 158  State:    S (sleeping) Name:  xfs-reclaim/sda
+PID: 159  State:    S (sleeping) Name:  xfs-log/sda1
+PID: 160  State:    S (sleeping) Name:  xfs-eofblocks/s
+PID: 161  State:    S (sleeping) Name:  xfsaild/sda1
+PID: 162  State:    S (sleeping) Name:  kworker/0:1H
+PID: 224  State:    S (sleeping) Name:  systemd-journal
+PID: 257  State:    S (sleeping) Name:  systemd-udevd
+PID: 275  State:    S (sleeping) Name:  rpciod
+PID: 276  State:    S (sleeping) Name:  xprtiod
+PID: 278  State:    S (sleeping) Name:  auditd
+PID: 326  State:    S (sleeping) Name:  systemd-logind
+PID: 327  State:    S (sleeping) Name:  polkitd
+PID: 331  State:    S (sleeping) Name:  dbus-daemon
+PID: 335  State:    S (sleeping) Name:  chronyd
+PID: 337  State:    S (sleeping) Name:  rpcbind
+PID: 340  State:    S (sleeping) Name:  gssproxy
+PID: 363  State:    S (sleeping) Name:  crond
+PID: 365  State:    S (sleeping) Name:  agetty
+PID: 646  State:    S (sleeping) Name:  sshd
+PID: 648  State:    S (sleeping) Name:  rsyslogd
+PID: 649  State:    S (sleeping) Name:  tuned
+PID: 742  State:    S (sleeping) Name:  master
+PID: 745  State:    S (sleeping) Name:  pickup
+PID: 746  State:    S (sleeping) Name:  qmgr
+PID: 1647  State:   S (sleeping) Name:  NetworkManager
+PID: 1662  State:   S (sleeping) Name:  dhclient
+PID: 2422  State:   S (sleeping) Name:  kworker/0:0
+PID: 2436  State:   S (sleeping) Name:  kworker/0:2
+PID: 2441  State:   S (sleeping) Name:  sshd
+PID: 2444  State:   S (sleeping) Name:  sshd
+PID: 2445  State:   S (sleeping) Name:  bash
+PID: 2467  State:   S (sleeping) Name:  sudo
+PID: 2469  State:   S (sleeping) Name:  bash
+PID: 2487  State:   S (sleeping) Name:  script_ps.sh
+cat: /proc/2488/status: No such file or directory
+cat: /proc/2488/status: No such file or directory
+PID: 2488
+cat: /proc/2489/status: No such file or directory
+cat: /proc/2489/status: No such file or directory
+PID: 2489
+cat: /proc/2490/status: No such file or directory
+cat: /proc/2490/status: No such file or directory
+PID: 2490
+cat: /proc/2491/status: No such file or directory
+cat: /proc/2491/status: No such file or directory
+PID: 2491
+[root@PS scripts]#
